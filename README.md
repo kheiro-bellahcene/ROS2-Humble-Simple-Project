@@ -8,7 +8,7 @@ The goal was to create **a single Python object-oriented node** that:
 
 ---
 
-## 🛠 Technologies
+## 🛠 Tools
 - **ROS2 Humble**
 - **Python 3**
 - **rclpy** (ROS2 Python client library)
