@@ -1,6 +1,24 @@
 #!/bin/bash
 # setup_ros2_humble.sh
-# Script pour configurer rapidement le workspace ROS2 Humble pour le projet TurtleSim
+# Script pour cloner et configurer rapidement le workspace ROS2 Humble pour le projet TurtleSim
+# Peut être lancé depuis n'importe quel dossier
+
+# Définir le dossier où cloner le projet (dans le dossier courant)
+CURRENT_DIR="$(pwd)"
+REPO_URL="https://github.com/kheiro-bellahcene/ROS2-Humble-Simple-Project.git"
+PROJECT_DIR="$CURRENT_DIR/ROS2-Humble-Simple-Project"
+
+# Cloner le dépôt si le dossier n'existe pas
+if [ ! -d "$PROJECT_DIR" ]; then
+    echo "Clonage du dépôt $REPO_URL dans $PROJECT_DIR..."
+    git clone $REPO_URL "$PROJECT_DIR"
+else
+    echo "Le dépôt $PROJECT_DIR existe déjà. Passage à la configuration..."
+fi
+
+# Aller dans le dossier du projet
+cd "$PROJECT_DIR" || { echo "Impossible de se placer dans $PROJECT_DIR"; exit 1; }
+
 # Ajouter ROS2 Humble à ~/.bashrc si nécessaire
 if ! grep -Fxq "source /opt/ros/humble/setup.bash" ~/.bashrc; then
     echo "Ajout de ROS2 Humble à votre ~/.bashrc..."
