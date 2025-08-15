@@ -34,7 +34,3 @@ echo ""
 echo "Pour lancer le projet :"
 echo " Terminal 1 : ros2 run turtlesim turtlesim_node"
 echo " Terminal 2 : ros2 run $PACKAGE_NAME turtle_controller"
-echo ""
-echo "ℹ️ Conseil : ouvrez deux terminaux séparés pour exécuter les deux commandes."
-
-
