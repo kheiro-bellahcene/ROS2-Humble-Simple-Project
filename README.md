@@ -27,7 +27,7 @@ Here is a short GIF demonstrating the turtle’s movement (my first hands-on dem
 
 ## 🏗 Setup & Run
 
-### Download and prepare the project
+### Download and Run the project
 Make sure ROS2 Humble is installed:
 
 ```bash
