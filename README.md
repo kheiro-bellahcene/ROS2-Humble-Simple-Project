@@ -24,18 +24,14 @@ Here is a short GIF demonstrating the turtle’s movement (my first hands-on dem
 
 ---
 
-## 📂 Project Structure
-
----
 
 ## 🏗 Setup & Run
 
-### 1️⃣ Set up ROS2 environment
-Make sure ROS2 Humble is installed and sourced:
+### Download and prepare the project
+Make sure ROS2 Humble is installed:
+
 ```bash
-source /opt/ros/humble/setup.bash
 git clone https://github.com/kheiro-bellahcene/ROS2-Humble-Simple-Project.git
 cd ROS2-Humble-Simple-Project/
-
-
-
+chmod +x setup_ros2_humble.sh
+./setup_ros2_humble.sh
