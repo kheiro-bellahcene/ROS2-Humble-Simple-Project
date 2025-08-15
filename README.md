@@ -34,7 +34,8 @@ Here is a short GIF demonstrating the turtle’s movement (my first hands-on dem
 Make sure ROS2 Humble is installed and sourced:
 ```bash
 source /opt/ros/humble/setup.bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/kheiro-bellahcene/ROS2-Humble-Simple-Project.git
+cd ROS2-Humble-Simple-Project/
+
 
 
