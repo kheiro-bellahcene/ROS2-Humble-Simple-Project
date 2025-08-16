@@ -38,7 +38,7 @@ cd ROS2-Humble-Simple-Project
 ### Run
 #### Option 1: Make it executable and run it
 ```bash
-chmod +x setup_ros2_humble.sh
+chmod 775 setup_ros2_humble.sh
 ./setup_ros2_humble.sh
 ```
 #### Option 2: Run it directly with bash (no chmod needed)
