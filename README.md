@@ -29,7 +29,13 @@ Here is a short GIF demonstrating the turtle’s movement (my first hands-on dem
 
 ### Download and Run the project
 Make sure ROS2 Humble is installed:
+### Download
+```bash
+git clone https://github.com/kheiro-bellahcene/ROS2-Humble-Simple-Project.git
+cd ROS2-Humble-Simple-Project
+```
 
+### Run
 #### Option 1: Make it executable and run it
 ```bash
 chmod +x setup_ros2_humble.sh
