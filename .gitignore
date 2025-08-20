@@ -15,3 +15,12 @@ venv/
 
 # OS
 .DS_Store
+
+#ROS log/ build/ install
+log/
+build/
+install/
+
+# vscode
+.vscode/
+
