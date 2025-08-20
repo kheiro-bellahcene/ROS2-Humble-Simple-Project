@@ -1,37 +1,17 @@
-# IDE / éditeurs
-.vscode/
-*.swp
-*.swo
-.DS_Store
-
-# Logs & temporaires
-log/
-logger_all.log
-*.log
-*.bak
-*.tmp
-*.pid
-*.coverage
-.coverage.*
-
-# Build / distribution
-build/
-install/
-dist/
-*.egg-info/
-*.egg
-*.whl
-*.manifest
-*.spec
-
 # Python
-*.pyc
-*.pyo
-*.pyd
 __pycache__/
-.mypy_cache/
+*.pyc
+
+# Logs
+*.log
 
 # Bases de données locales
 *.db
 *.sqlite3
-   
+
+# Environnements virtuels
+.venv/
+venv/
+
+# OS
+.DS_Store
